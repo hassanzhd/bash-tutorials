@@ -3,18 +3,17 @@
 
 **Table Of Contents:**
 
-- [Introduction:](#introduction-)
-  - [Automated Directory Management (using BASH and cron):](#automated-directory-management--using-bash-and-cron--)
-
-    - [About the tutorial:](#about-the-tutorial-)
-    - [Getting Started:](#getting-started-)
-    - [The Script:](#the-script-)
-      - [1. Changing Directory:](#1-changing-directory-)
-      - [2. File types and Directories:](#2-file-types-and-directories-)
-      - [3. Looping, file testing and conditionals:](#3-looping--file-testing-and-conditionals-)
-      - [4. Complete Script:](#4-complete-script-)
-    - [cron:](#cron-)
-    - [Conclusion:](#conclusion-)
+- [Introduction:]()
+  - [Automated Directory Management (using BASH and cron):](https://github.com/hassanzhd/bash-tutorials#automated-directory-management-using-bash-and-cron)
+    - [About the tutorial:]()
+    - [Getting Started:]()
+    - [The Script:]()
+      - [1. Changing Directory:]()
+      - [2. File types and Directories:]()
+      - [3. Looping, file testing and conditionals:]()
+      - [4. Complete Script:]()
+    - [cron:]()
+    - [Conclusion:]()
 
 ## Introduction:
 
