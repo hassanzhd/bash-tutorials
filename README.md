@@ -5,15 +5,15 @@
 
 - [Introduction:]()
   - [Automated Directory Management (using BASH and cron):](https://github.com/hassanzhd/bash-tutorials#automated-directory-management-using-bash-and-cron)
-    - [About the tutorial:]()
-    - [Getting Started:]()
-    - [The Script:]()
-      - [1. Changing Directory:]()
-      - [2. File types and Directories:]()
-      - [3. Looping, file testing and conditionals:]()
-      - [4. Complete Script:]()
-    - [cron:]()
-    - [Conclusion:]()
+    - About the tutorial:
+    - Getting Started:
+    - The Script:
+      - 1. Changing Directory:
+      - 2. File types and Directories:
+      - 3. Looping, file testing and conditionals:
+      - 4. Complete Script:
+    - cron:
+    - Conclusion:
 
 ## Introduction:
 
