@@ -3,13 +3,24 @@
 
 **Table Of Contents:**
 
-[TOC]
+- [Introduction:](#introduction-)
+  - [Automated Directory Management (using BASH and cron):](#automated-directory-management--using-bash-and-cron--)
+
+    - [About the tutorial:](#about-the-tutorial-)
+    - [Getting Started:](#getting-started-)
+    - [The Script:](#the-script-)
+      - [1. Changing Directory:](#1-changing-directory-)
+      - [2. File types and Directories:](#2-file-types-and-directories-)
+      - [3. Looping, file testing and conditionals:](#3-looping--file-testing-and-conditionals-)
+      - [4. Complete Script:](#4-complete-script-)
+    - [cron:](#cron-)
+    - [Conclusion:](#conclusion-)
 
 ## Introduction:
 
 This Repository from my side intends to provide short tutorials which might help for a better understanding of (BASH/\*nix) scripting. If you have any questions/ queries feel free to post an issue.
 
-###Automated Directory Management (using BASH and cron):
+### Automated Directory Management (using BASH and cron):
 
 #### About the tutorial:
 
@@ -117,17 +128,17 @@ chmod +x script.sh
 
 Now for the process to be automated we will be needing a job scheduler (cron in our case). If you dont have cron currently on your machine then it can be installed using (ubuntu) :
 
-```sh
-sudo apt update
-sudo apt intsall cron
-sudo systemctl enable cron # inorder to run in the background
+```console
+foo@bar:~$ sudo apt update
+foo@bar:~$ sudo apt intsall cron
+foo@bar:~$ sudo systemctl enable cron # inorder to run in the background
 ```
 
 tasks scheduled in crontab are user profile based and are stored in **/var/spool/cron/crontabs/**.
 
 tasks scheduled in crontab are structured in the following form:
 
-> **minute hour day_of_month month day_of_week command **
+> minute hour day_of_month month day_of_week command
 
 crontab can be edited using:
 
