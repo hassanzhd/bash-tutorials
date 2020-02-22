@@ -3,7 +3,7 @@
 
 **Table Of Contents:**
 
-- [Introduction:]()
+- Introduction:
   - [Automated Directory Management (using BASH and cron):](https://github.com/hassanzhd/bash-tutorials#automated-directory-management-using-bash-and-cron)
     - About the tutorial:
     - Getting Started:
