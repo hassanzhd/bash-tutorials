@@ -76,16 +76,15 @@ because if there are no files present of the specified type then script will thr
 Hence we use file tests with if statements: (-e represents => if exists as a file) , (-d represents => if exists a directory)
 
 ```sh
-	if [ -e $fileName ] ; then
-			if [ -d ${directory[$i]} ] ; then
-				mv ./$fileName absolutePath/${directory[$i]}
-			else
-				mkdir ./${directory[$i]}
-				mv ./$fileName absolutePath/${directory[$i]}
-			fi
-		else
-			echo "${fileName} not found"
-		fi
+if [ -e $fileName ] ; then
+	if [ -d ${directory[$i]} ] ; then
+		mv ./$fileName absolutePath/${directory[$i]}
+	else
+		mkdir ./${directory[$i]}
+		mv ./$fileName absolutePath/${directory[$i]}
+	fi
+else
+	echo "${fileName} not found"
 fi
 ```
 
